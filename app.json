@@ -17,7 +17,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.parthureddy.restuarentapp"
     },
     "web": {
       "output": "static",
@@ -38,6 +39,12 @@
     ],
     "experiments": {
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "63a5db6e-a484-4cf3-a86f-cbe9357e3ff2"
+      }
     }
   }
 }
